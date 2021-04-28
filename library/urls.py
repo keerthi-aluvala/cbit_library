@@ -7,6 +7,11 @@ urlpatterns = [
     path('cse_sems/', views.cse_sems, name='library-cse-sems'),
     path('ece_sems/', views.ece_sems, name='library-ece-sems'),
     path('eee_sems/', views.eee_sems, name='library-eee-sems'), 
+    path('it_sem1/', views.it_sem1, name='library-it-sem1'), 
+    path('it_sem2/', views.it_sem2, name='library-it-sem2'), 
     path('it_sem3/', views.it_sem3, name='library-it-sem3'), 
-
+    path('it_sem4/', views.it_sem4, name='library-it-sem4'), 
+    path('it_sem5/', views.it_sem5, name='library-it-sem5'), 
+    path('it_sem3_DMA/',views.it_sem3_DMA, name='library-it-sem3-DMA'), 
+    
 ]
